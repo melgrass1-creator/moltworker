@@ -5,7 +5,7 @@
   "compatibility_date": "2025-05-06",
   "compatibility_flags": ["nodejs_compat"],
   "vars": {
-    "GOOGLE_GEMINI_API_KEY": "AIzaSyDWqUZeT9FgXPHIDsc0KBalT2zFjfrjHAU"
+    "GOOGLE_GEMINI_API_KEY": "GOOGLE_GEMINI_API_KEY"
   },
   "observability": {
     "enabled": true
@@ -31,33 +31,5 @@
   ],
   "build": {
     "command": "npm run build"
-  },
-  "containers": [
-    {
-      "class_name": "Sandbox",
-      "image": "./Dockerfile",
-      "instance_type": "standard-1",
-      "max_instances": 1
-    }
-  ],
-  "durable_objects": {
-    "bindings": [
-      {
-        "class_name": "Sandbox",
-        "name": "Sandbox"
-      }
-    ]
-  },
-  "migrations": [
-    {
-      "new_sqlite_classes": ["Sandbox"],
-      "tag": "v1"
-    }
-  ],
-  "r2_buckets": [
-    {
-      "binding": "MOLTBOT_BUCKET",
-      "bucket_name": "moltbot-data"
-    }
-  ]
+  }
 }

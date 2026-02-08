@@ -1,0 +1,7 @@
+name = "moltworker"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+GOOGLE_GEMINI_API_KEY = "AIzaSyDWqUZeT9FgXPHIDsc0KBalT2zFjfrjHAU"
+

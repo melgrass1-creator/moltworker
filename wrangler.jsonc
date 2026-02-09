@@ -5,7 +5,7 @@
   "compatibility_date": "2025-05-06",
   "compatibility_flags": ["nodejs_compat"],
   "vars": {
-    "GOOGLE_GEMINI_API_KEY": "GOOGLE_GEMINI_API_KEY"
+    "GOOGLE_GEMINI_API_KEY": "AIzaSyAI7jWe0FTxzXMweQNmHB8vAR3YdiG-Wkk"
   },
   "observability": {
     "enabled": true
